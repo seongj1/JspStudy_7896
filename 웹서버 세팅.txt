@@ -7,3 +7,11 @@ tomcat 서버 세팅 -> Servers프로젝트 -> server.xml 파일(port 8000, s-po
 테스트 웹 브라우저 선택 -> Window -> web Browser -> 크롬선택
 
 jsp 파일 경로 -> src -> main -> webapp
+
+
+page 지시자의 속성 및 기본값에서 중요한것 5가지 
+language
+contentType
+import
+session
+pageEncoding
