@@ -3,7 +3,7 @@
  */
  
  const tbody = document.querySelector("tbody");
- const subjectPlusBtn = document.querySelector(".subject-plus")
+ const subjectPlusBtn = document.querySelector(".subject-plus");
  
  subjectPlusBtn.onclick = () => {
 	const tr = document.createElement("tr");
