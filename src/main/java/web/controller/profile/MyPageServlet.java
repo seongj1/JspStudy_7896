@@ -1,4 +1,4 @@
-package web.controller.progile;
+package web.controller.profile;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -10,12 +10,12 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class MyPageServlet
  */
-@WebServlet("/profile/update/password")
-public class PasswordUpdateServlet extends HttpServlet {
+@WebServlet("/profile/mypage")
+public class MyPageServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.getRequestDispatcher("/WEB-INF/views/profile/password-update.jsp").forward(request, response);
+		request.getRequestDispatcher("/WEB-INF/views/profile/mypage.jsp").forward(request, response);
 	}
 
 }

@@ -1,5 +1,4 @@
 eclipse.preferences.version=1
 encoding//src/main/java/repository/AuthDaoImpl.java=UTF-8
 encoding//src/main/java/web/controller/auth/SigninServlet.java=UTF-8
-encoding//src/main/java/web/controller/progile/ProfileUpdateServlet.java=UTF-8
-encoding/<project>=UTF-8
+encoding//src/main/java/web/controller/profile/ProfileUpdateServlet.java=UTF-8

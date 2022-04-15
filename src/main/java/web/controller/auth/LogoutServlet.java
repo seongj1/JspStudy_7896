@@ -1,4 +1,4 @@
-package web.controller.progile;
+package web.controller.auth;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -6,16 +6,21 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 /**
- * Servlet implementation class MyPageServlet
+ * Servlet implementation class LogoutServlet
  */
-@WebServlet("/profile/mypage")
-public class MyPageServlet extends HttpServlet {
+@WebServlet("/LogoutServlet")
+public class LogoutServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.getRequestDispatcher("/WEB-INF/views/profile/mypage.jsp").forward(request, response);
+		HttpSession session = request.getSession();
+		session.invalidate();
+		response.sendRedirect("/JspStudy_7896/auth/signin");
 	}
+
+	
 
 }
