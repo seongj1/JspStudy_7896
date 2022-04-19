@@ -29,8 +29,8 @@
 			</table>
 			<button>이미지 업로드</button>
 		</form>
-		<a download href="/JspStudy_7896/static/fileupload/6e2549c2369c4abfb528be98f4cdbf64_banner02.jpg">이미지 다운로드</a>
-		<img src="/JspStudy_7896/static/fileupload/6e2549c2369c4abfb528be98f4cdbf64_banner02.jpg">
+		<a download href="/JspStudy_7896/static/fileupload/fd0262ca17874660b532f3f6090e038e_banner01.jpg">이미지 다운로드</a>
+		<img src="/JspStudy_7896/static/fileupload/fd0262ca17874660b532f3f6090e038e_banner01.jpg">
 	</div>
 	<script type="text/javascript" src="/JspStudy_7896/static/js/file.js"></script>
 </body>

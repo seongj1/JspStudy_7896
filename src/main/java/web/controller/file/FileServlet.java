@@ -22,13 +22,13 @@ import repository.FileDao;
 import web.service.FileService;
 import web.service.FileServiceImpl;
 
-@MultipartConfig(
+@MultipartConfig( //멀티파트를 사용할 때 반드시 필요한 어노테이션
 		fileSizeThreshold = 1024 * 1024,  //임시 파일 크기 1MB
 		maxFileSize = 1024 * 1024 * 50,  //업로드할 때 파일의 최대 크기 50MB
 		maxRequestSize = 1024 * 1024 * 50 * 3  //요청시에 최대 크기 150MB
 )
 
-@WebServlet("/file-upload")
+@WebServlet("/file-upload") //웹 주소
 public class FileServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private FileService fileService;
